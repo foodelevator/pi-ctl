@@ -1,0 +1,23 @@
+{
+  "name": "pi-ctl",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Local control of running interactive Pi sessions",
+  "type": "module",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "pi": {
+    "extensions": [
+      "./src/extension.ts"
+    ]
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "1.5.0",
+    "@types/node": "^26.0.0",
+    "typescript": "^5.9.3"
+  }
+}
