@@ -12,7 +12,7 @@
   },
   "pi": {
     "extensions": [
-      "./src/extension.ts"
+      "./src/pi-ctl.ts"
     ]
   },
   "devDependencies": {
